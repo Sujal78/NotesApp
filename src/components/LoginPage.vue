@@ -12,7 +12,8 @@
         </b-input-group>
         </div>
         <div>
-            <b-button :disabled="(username.length > 0 && password.length > 0)? false : true" variant="primary" @click="handleClick">Login</b-button>
+            <b-button :disabled="(username.length > 0 && password.length > 0)? false : true" variant="primary" class="signbutton" @click="handleClick">Login</b-button>
+            <b-button class="signbutton" variant="outline-primary">Register</b-button>
         </div>
     </div>
 
@@ -40,6 +41,10 @@ export default{
 </script>
 
 <style>
+
+.signbutton{
+    margin: 10px 10px;
+}
 .input{
     width: 50%;
     margin: 10px auto;

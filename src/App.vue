@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <Navbar/>
-    <img alt="Vue logo" src="./assets/logo.png">
+    <img alt="Notes logo" style="width: 150px; height: 150px; margin: 10px;" src="./assets/take_notes.png">
+
     <router-view></router-view>
   </div>
 </template>
